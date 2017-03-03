@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'JNWSpringAnimation'
   s.dependency 'SDWebImage', '~> 3.8'
-  s.dependency 'ImageSource'
+  s.dependency 'ImageSource' , :git => 'https://github.com/ki0k1/Paparazzo'
   
   s.subspec 'Core' do |cs|
     cs.source_files = 'Paparazzo/Core/**/*'
