@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Marshroute' do |ms|
-    ms.dependency 'Paparazzo/Core'
-    ms.dependency 'Marshroute'
+    ms.dependency 'Paparazzo/Core', :git => 'https://github.com/ki0k1/Paparazzo'
+    ms.dependency 'Marshroute', :git => 'https://github.com/ki0k1/Marshroute'
     ms.source_files = 'Paparazzo/Marshroute/**/*'
   end
 end
