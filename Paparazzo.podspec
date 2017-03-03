@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'JNWSpringAnimation'
   s.dependency 'SDWebImage', '~> 3.8'
-  s.dependency 'ImageSource', :git => 'https://github.com/ki0k1/Paparazzo'
+  s.dependency 'ImageSource', :git => 'https://github.com/ki0k1/Paparazzo.git'
   
   s.subspec 'Core' do |cs|
     cs.source_files = 'Paparazzo/Core/**/*'
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Marshroute' do |ms|
-    ms.dependency 'Paparazzo/Core', :git => 'https://github.com/ki0k1/Paparazzo'
-    ms.dependency 'Marshroute', :git => 'https://github.com/ki0k1/Marshroute'
+    ms.dependency 'Paparazzo/Core', :git => 'https://github.com/ki0k1/Paparazzo.git'
+    ms.dependency 'Marshroute', :git => 'https://github.com/ki0k1/Marshroute.git'
     ms.source_files = 'Paparazzo/Marshroute/**/*'
   end
 end
